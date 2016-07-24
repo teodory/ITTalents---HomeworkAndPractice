@@ -19,11 +19,27 @@ public class ProductByAmount extends Product {
         this.productAmount = productAmount;
     }
 
-    public int getProductAmount() {
+    @Override
+    public void removeAmount(double amount){
+        this.productAmount -= amount;
+    }
+
+    public double getCount() {
         return productAmount;
     }
 
-    public void removePieces(int amount){
-        this.productAmount -= amount;
+    @Override
+    public void returnProduct(double count) {
+        this.productAmount += count;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append( super.toString());
+        sb.append(System.lineSeparator())
+                .append("Amount: " + this.productAmount);
+
+        return sb.toString();
     }
 }

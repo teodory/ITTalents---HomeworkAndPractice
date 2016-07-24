@@ -19,4 +19,20 @@ public abstract class Product {
     public double getPrice() {
         return price;
     }
+
+    public abstract double getCount();
+
+    public abstract void removeAmount(double amount);
+
+    public abstract void returnProduct(double cout);
+
+    @Override
+    public String toString() {
+        StringBuilder out = new StringBuilder();
+        out.append("Name: " + this.name)
+                .append(System.lineSeparator())
+                .append("Price: " + this.price);
+
+        return out.toString();
+    }
 }

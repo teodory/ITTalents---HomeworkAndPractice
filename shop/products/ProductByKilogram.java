@@ -19,11 +19,27 @@ public class ProductByKilogram extends Product {
         this.kilograms = kilograms;
     }
 
-    public double getKilograms() {
+    public void removeAmount(double kilograms){
+        this.kilograms -= kilograms;
+    }
+
+    @Override
+    public void returnProduct(double count) {
+        this.kilograms += count;
+    }
+
+    @Override
+    public double getCount() {
         return kilograms;
     }
 
-    public void cutFromTheProduct(double kilograms){
-        this.kilograms -= kilograms;
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append( super.toString());
+        sb.append(System.lineSeparator())
+                .append("Kilograms: " + this.kilograms);
+
+        return sb.toString();
     }
 }
