@@ -1,4 +1,4 @@
-package Labrary.readModels;
+package Library.readModels;
 
 import java.time.DateTimeException;
 import java.time.LocalDate;
@@ -6,7 +6,7 @@ import java.time.LocalDate;
 /**
  * Created by Parapanov on 23/08/2016.
  */
-public class Magazine extends Labrary.readModels.Read{
+public class Magazine extends Library.readModels.Read{
 
     private String category;
     private int amount;

@@ -1,4 +1,4 @@
-package Labrary.interfaces;
+package Library.interfaces;
 
 /**
  * Created by Parapanov on 23/08/2016.

@@ -1,4 +1,4 @@
-package Labrary.exceptions;
+package Library.exceptions;
 
 /**
  * Created by Parapanov on 24/08/2016.

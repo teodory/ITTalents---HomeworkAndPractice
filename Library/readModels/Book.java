@@ -1,4 +1,4 @@
-package Labrary.readModels;
+package Library.readModels;
 
 import java.time.DateTimeException;
 import java.time.LocalDate;

@@ -1,10 +1,10 @@
-package Labrary;
+package Library;
 
-import Labrary.exceptions.NoSuchGenreException;
-import Labrary.readModels.Book;
-import Labrary.readModels.Magazine;
-import Labrary.readModels.Schoolbook;
-import Labrary.readableThreads.BookChecker;
+import Library.exceptions.NoSuchGenreException;
+import Library.readModels.Book;
+import Library.readModels.Magazine;
+import Library.readModels.Schoolbook;
+import Library.readableThreads.BookChecker;
 
 import java.util.*;
 

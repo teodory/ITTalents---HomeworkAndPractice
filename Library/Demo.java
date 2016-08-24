@@ -1,6 +1,6 @@
-package Labrary;
+package Library;
 
-import Labrary.readModels.Book;
+import Library.readModels.Book;
 
 /**
  * Created by Parapanov on 23/08/2016.
@@ -29,5 +29,6 @@ public class Demo {
         }
 
         pesho.returnBook();
+        System.out.println("End");
     }
 }

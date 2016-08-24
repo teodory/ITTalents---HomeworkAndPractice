@@ -1,6 +1,6 @@
-package Labrary.readableThreads;
+package Library.readableThreads;
 
-import Labrary.Library;
+import Library.Library;
 
 /**
  * Created by Parapanov on 24/08/2016.

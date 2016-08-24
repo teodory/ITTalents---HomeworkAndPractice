@@ -1,7 +1,7 @@
-package Labrary;
+package Library;
 
-import Labrary.exceptions.NoSuchGenreException;
-import Labrary.readModels.Book;
+import Library.exceptions.NoSuchGenreException;
+import Library.readModels.Book;
 
 /**
  * Created by Parapanov on 24/08/2016.

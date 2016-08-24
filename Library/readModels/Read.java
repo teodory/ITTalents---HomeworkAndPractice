@@ -1,4 +1,4 @@
-package Labrary.readModels;
+package Library.readModels;
 
 /**
  * Created by Parapanov on 23/08/2016.
